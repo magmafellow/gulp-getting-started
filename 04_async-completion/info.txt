@@ -1,0 +1,5 @@
+You should signal a completion of a task
+
+When a stream, promise, event emitter, child process, or observable is returned from a task,
+  the success or error informs gulp whether to continue or end. If a task errors,
+    gulp will end immediately and show that error.
